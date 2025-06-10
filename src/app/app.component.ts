@@ -1,16 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AppModule } from './app.module';
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
-  template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
-  `,
-  styles: [],
+  selector: "app-root",
+  templateUrl: "app.component.html",
+  styles: `:host { display: flex; flex-direction: column; min-height: 100vh; } main { flex: 1; }`
 })
+
 export class AppComponent {
-  title = 'Mercadinho';
+  title = "Mercadinho"
 }
