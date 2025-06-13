@@ -8,3 +8,11 @@
 main {
   flex: 1;
 }
+.main-content {
+  padding: 100px, 15px, 15px, 100px;
+  margin: auto;
+}
+.footer {
+  height: 50px;
+  text-align: center;
+}
